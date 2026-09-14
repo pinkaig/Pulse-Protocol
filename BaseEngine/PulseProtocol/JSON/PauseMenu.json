@@ -1,0 +1,649 @@
+{
+    "scene": "PauseMenu",
+    "entities": [
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 2.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/Backgrounds/Pause_Spritesheet.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 11,
+                        "elapsedTime": 0.010259225964546204,
+                        "totalFrames": 14,
+                        "columns": 2,
+                        "rows": 7,
+                        "animationSpeed": 12.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "MainMenuBG"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -757.0,
+                            "y": -2.6
+                        },
+                        "scale": {
+                            "x": 352.5,
+                            "y": 109.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 2.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/new game.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "NewGameBtn"
+                    }
+                },
+                {
+                    "Health": {
+                        "hp": 100,
+                        "damage": 0,
+                        "isAlive": true
+                    }
+                },
+                {
+                    "prefabInstance": {
+                        "prefabName": "Button",
+                        "isLinked": false
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 10,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -757.0,
+                            "y": -169.5
+                        },
+                        "scale": {
+                            "x": 352.5,
+                            "y": 109.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 2.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/continue.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": []
+                    }
+                },
+                {
+                    "name": {
+                        "name": "ContinueBtn"
+                    }
+                },
+                {
+                    "Health": {
+                        "hp": 100,
+                        "damage": 0,
+                        "isAlive": true
+                    }
+                },
+                {
+                    "prefabInstance": {
+                        "prefabName": "Button",
+                        "isLinked": false
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 10,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -757.0,
+                            "y": -336.4
+                        },
+                        "scale": {
+                            "x": 352.5,
+                            "y": 109.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 2.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/settings.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "ButtonScript"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "SettingsBtn"
+                    }
+                },
+                {
+                    "Health": {
+                        "hp": 100,
+                        "damage": 0,
+                        "isAlive": true
+                    }
+                },
+                {
+                    "prefabInstance": {
+                        "prefabName": "Button",
+                        "isLinked": false
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 10,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -757.0,
+                            "y": -670.1
+                        },
+                        "scale": {
+                            "x": 352.5,
+                            "y": 109.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/quit.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "ButtonScript"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "QuitBtn"
+                    }
+                },
+                {
+                    "Health": {
+                        "hp": 100,
+                        "damage": 0,
+                        "isAlive": true
+                    }
+                },
+                {
+                    "prefabInstance": {
+                        "prefabName": "Button",
+                        "isLinked": false
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 10,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": -757.0, "y": -503.3 },
+                        "scale": { "x": 352.5, "y": 109.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 2.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/How to Play.png",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": { "ScriptName": [ "NavigationButtons" ] }
+                },
+                {
+                    "name": { "name": "HowToPlayBtn" }
+                },
+                {
+                    "Health": { "hp": 100, "damage": 0, "isAlive": true }
+                },
+                {
+                    "prefabInstance": { "prefabName": "Button", "isLinked": false }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 10, "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 0.0 },
+                        "scale": { "x": 1600.0, "y": 900.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": false, "visibilityTimer": 0.0, "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 1.0, "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/howtoplay/NEW_HTP_1.png",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 2.0
+                    }
+                },
+                { "script": { "ScriptName": [ "HowToPlayPage1" ] } },
+                { "name": { "name": "HTP_Page_1" } },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 21, "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 0.0 },
+                        "scale": { "x": 1600.0, "y": 900.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": false, "visibilityTimer": 0.0, "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 1.0, "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/howtoplay/NEW_HTP_2.png",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 2.0
+                    }
+                },
+                { "script": { "ScriptName": [ "HowToPlayPage2" ] } },
+                { "name": { "name": "HTP_Page_2" } },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 21, "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 0.0 },
+                        "scale": { "x": 1600.0, "y": 900.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": false, "visibilityTimer": 0.0, "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 1.0, "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/howtoplay/NEW_HTP_3.png",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 2.0
+                    }
+                },
+                { "script": { "ScriptName": [ "HowToPlayPage3" ] } },
+                { "name": { "name": "HTP_Page_3" } },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 21, "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": -1200.0, "y": 600.0 },
+                        "scale": { "x": 100.0, "y": 100.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": false, "visibilityTimer": 0.0, "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 1.0, "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/Exit.png",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 2.0
+                    }
+                },
+                { "script": { "ScriptName": [ "HowToPlayOverlay", "NavigationButtons" ] } },
+                { "name": { "name": "Exit_HTP_Button" } },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 30, "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 1200.0, "y": 600.0 },
+                        "scale": { "x": 100.0, "y": 100.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": false, "visibilityTimer": 0.0, "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 1.0, "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/NextStage.png",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 2.0
+                    }
+                },
+                { "script": { "ScriptName": [ "HtpNextButton", "NavigationButtons" ] } },
+                { "name": { "name": "NextStage_HTP_Button" } },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 30, "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 680.0 },
+                        "scale": { "x": 200.0, "y": 200.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 0.0, "useTexture": false,
+                        "spriteName": "",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "script": { "ScriptName": [ "ControllerNotification" ] }
+                },
+                {
+                    "name": { "name": "ControllerNotificationText" }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 100, "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "",
+                        "font_id": "barlow_semibold_font",
+                        "offset": { "x": 0.0, "y": 0.0 },
+                        "font_size": 40.0,
+                        "color": [ 1.0, 1.0, 1.0 ],
+                        "visible": false,
+                        "alignment": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

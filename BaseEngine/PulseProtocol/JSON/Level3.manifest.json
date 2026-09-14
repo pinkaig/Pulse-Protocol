@@ -1,0 +1,27 @@
+{ //audio and font already preloaded though
+    "scenemanifest": {
+        "sceneName": "Level3",
+        "sharedGroups": [
+            "GlobalUI",
+            "GameplayCommon"
+        ],
+        "textures": [
+            "Level3_BG",
+            //3att 3movement idle death hurt
+            "boss_idle",
+            "boss_death",
+            "boss_hurt",
+            "boss_attack1",
+            "boss_attack2",
+            "boss_attack3",
+            "boss_move1",
+            "boss_move2",
+            "boss_move3"
+        ],
+        "audio": [
+            "BGM_L3_TESTING"
+        ],
+        "fonts": [],
+        "animations": []
+    }
+}

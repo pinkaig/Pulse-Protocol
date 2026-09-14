@@ -1,0 +1,15 @@
+{ //audio and font already preloaded though
+    "scenemanifest": {
+        "sceneName": "LatencyCalibration",
+        "textures": [
+            "Calibrator_BG",
+            "NextStage_btn",
+            "NextStage_btn_hover",
+            "pauserestart_btn",
+            "pauserestart_btn_hover"
+        ],
+        "audio": [],
+        "fonts": [],
+        "animations": []
+    }
+}

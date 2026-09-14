@@ -1,0 +1,1881 @@
+{
+    "scene": "Settings",
+    "entities": [
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/Backgrounds/Settings0000.jpg",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "BG_PlaceholderImg"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "Background",
+                        "mask": 1,
+                        "sortingLayer": 0,
+                        "orderInLayer": 10,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -934.0042724609375,
+                            "y": 365.6153259277344
+                        },
+                        "scale": {
+                            "x": 300.0,
+                            "y": 40.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/Volume_.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Volume"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 2,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Children": {
+                        "children": [
+                            2,
+                            3,
+                            4
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 5.692194938659668,
+                            "y": 250.0
+                        },
+                        "scale": {
+                            "x": 1140.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar bottom.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": []
+                    }
+                },
+                {
+                    "name": {
+                        "name": "VEmpty"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 1088.5072021484375,
+                            "y": 250.0
+                        },
+                        "scale": {
+                            "x": 50.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "VolumeKnob"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "VKnob"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 100.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -574.864013671875,
+                            "y": 250.0
+                        },
+                        "scale": {
+                            "x": 542.4365234375,
+                            "y": 20.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar fill.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "VolumeFill"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "VFilled"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 100.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -991.763916015625,
+                            "y": 97.24113464355469
+                        },
+                        "scale": {
+                            "x": 230.0,
+                            "y": 40.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/Music_.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Music"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Children": {
+                        "children": [
+                            6,
+                            7,
+                            8
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 5.692070960998535,
+                            "y": -50.0
+                        },
+                        "scale": {
+                            "x": 1140.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar bottom.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "MEmpty"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 5
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 1092.57763671875,
+                            "y": -50.0
+                        },
+                        "scale": {
+                            "x": 56.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "MusicKnob"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "MKnob"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 5
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 3.3775634765625,
+                            "y": -50.0
+                        },
+                        "scale": {
+                            "x": 1117.2000732421875,
+                            "y": 20.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar fill.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "MusicFill"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "MFilled"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 5
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -942.3076782226563,
+                            "y": 641.7880249023438
+                        },
+                        "scale": {
+                            "x": 300.0,
+                            "y": 40.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/Screen_.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Screen"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Children": {
+                        "children": [
+                            20,
+                            22,
+                            21,
+                            23,
+                            24,
+                            25
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -824.3192749023438,
+                            "y": -500.3079528808594
+                        },
+                        "scale": {
+                            "x": 400.0,
+                            "y": 40.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/Brightness_.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Brightness"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Children": {
+                        "children": [
+                            16,
+                            15,
+                            17
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -1378.4959716796875,
+                            "y": 683.5651245117188
+                        },
+                        "scale": {
+                            "x": 100.0,
+                            "y": 100.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/back.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "NavigationButtons"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "BackButton"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 5,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 5.691999912261963,
+                            "y": -350.0
+                        },
+                        "scale": {
+                            "x": 1140.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar bottom.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "SEmpty"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 19
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 1089.568603515625,
+                            "y": -350.0
+                        },
+                        "scale": {
+                            "x": 56.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "SfxKnob"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "SKnob"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 19
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.3685302734375,
+                            "y": -350.0
+                        },
+                        "scale": {
+                            "x": 1117.2000732421875,
+                            "y": 20.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar fill.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "SfxFill"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "SFilled"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 19
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 5.691999912261963,
+                            "y": -650.0
+                        },
+                        "scale": {
+                            "x": 1140.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar bottom.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "BEmpty"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 10
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 1086.5181884765625,
+                            "y": -650.0
+                        },
+                        "scale": {
+                            "x": 56.0,
+                            "y": 30.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "BrightnessKnob"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "BKnob"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 10
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -2.681884765625,
+                            "y": -650.0
+                        },
+                        "scale": {
+                            "x": 1117.2000732421875,
+                            "y": 20.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/slider bar fill.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "BrightnessFill"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "BFilled"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 10
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "GeneralBGM"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "BGM_Manager"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "audiosource": {
+                        "audio_id": "BGM_GENERAL",
+                        "volume": 0.20000000298023224,
+                        "loop": true,
+                        "playOnAwake": false
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -1051.9228515625,
+                            "y": -207.69235229492188
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 40.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/SFX_.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "SFX"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Children": {
+                        "children": [
+                            12,
+                            13,
+                            14
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -228.8460693359375,
+                            "y": 648.0768432617188
+                        },
+                        "scale": {
+                            "x": 380.0,
+                            "y": 58.89337158203125
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/dropdown close.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "DropdownToggle"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "DropdownBox(Closed)"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 9
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -229.81077575683594,
+                            "y": 557.34912109375
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 31.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/windowed.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "DropdownOptionWindowed"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Windowed (Open)"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 9
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -228.0,
+                            "y": 585.5438232421875
+                        },
+                        "scale": {
+                            "x": 381.0,
+                            "y": 120.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/dropdown open.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "DropdownOpenFollower"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Dropdownbox(Open)"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 9
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -231.79489135742188,
+                            "y": 557.9487915039063
+                        },
+                        "scale": {
+                            "x": 251.0,
+                            "y": 31.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/Full screen.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "DropdownOptionFullscreen"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Fullscreen (Open)"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 9
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -232.57635498046875,
+                            "y": 654.1206665039063
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 31.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/windowed.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "DropdownClosedLabelWindowed"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Windowed (Closed)"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 9
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -234.6527862548828,
+                            "y": 654.1207275390625
+                        },
+                        "scale": {
+                            "x": 254.0,
+                            "y": 31.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/Full screen.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "DropdownClosedLabelFullscreen"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "FullScreen (Closed)"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "Parent": {
+                        "parent": 9
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 680.0 },
+                        "scale": { "x": 200.0, "y": 200.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 0.0, "useTexture": false,
+                        "spriteName": "",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "script": { "ScriptName": [ "ControllerNotification" ] }
+                },
+                {
+                    "name": { "name": "ControllerNotificationText" }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 100, "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "",
+                        "font_id": "barlow_semibold_font",
+                        "offset": { "x": 0.0, "y": 0.0 },
+                        "font_size": 40.0,
+                        "color": [ 1.0, 1.0, 1.0 ],
+                        "visible": false,
+                        "alignment": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

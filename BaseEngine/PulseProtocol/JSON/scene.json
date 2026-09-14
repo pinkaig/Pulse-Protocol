@@ -1,0 +1,28 @@
+{
+    "sceneFilePaths": [
+        {
+            "id": "latencycalibration_scene",
+            "path": "JSON/LatencyCalibration.json"
+        },
+        {
+            "id": "visuallatencycalibration_scene",
+            "path": "JSON/VisualLatencyCalibration.json"
+        },
+        {
+            "id": "mainmenu_scene",
+            "path": "JSON/MainMenu.json"
+        },
+        {
+            "id": "level1_scene",
+            "path": "JSON/Level1.json"
+        },
+        {
+            "id": "gamewin_scene",
+            "path": "JSON/GameWin.json"
+        },
+        {
+            "id": "gamelose_scene",
+            "path": "JSON/GameLose.json"
+        }
+    ]
+}

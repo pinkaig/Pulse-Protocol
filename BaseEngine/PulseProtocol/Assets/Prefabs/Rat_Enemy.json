@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "transform": {
+        "position": {
+          "x": 977.0,
+          "y": -249.010
+        },
+        "scale": {
+          "x": 350.0,
+          "y": 230.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "isVisible": true
+      }
+    },
+    {
+      "render": {
+        "mdl_ref": 0.0,
+        "shd_ref": 2.0,
+        "useTexture": true,
+        "spriteName": "rat_idle",
+        "tintColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      }
+    },
+    {
+      "animation": {
+        "currentFrame": 0,
+        "elapsedTime": 0.0,
+        "totalFrames": 15,
+        "columns": 4,
+        "rows": 4,
+        "animationSpeed": 12.0
+      }
+    },
+    {
+      "AABB": {
+        "min": {
+          "x": -10.0,
+          "y": 5.0
+        },
+        "max": {
+          "x": 10.0,
+          "y": 22.0
+        }
+      }
+    },
+    {
+      "name": {
+        "name": "Rat_Enemy"
+      }
+    },
+    {
+      "Health": {
+        "hp": 15,
+        "damage": 5,
+        "isAlive": true
+      }
+    },
+    {
+      "LayerTag": {
+        "layerName": "World",
+        "mask": 2,
+        "orderInLayer": 5,
+        "z": 0.0
+      }
+    },
+    {
+      "script": {
+        "ScriptName": [
+          "EnemyRhythmController"
+        ]
+      }
+    }
+  ]
+}

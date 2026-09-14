@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "name": {
+        "name": "HitVFX"
+      }
+    },
+    {
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "scale": {
+          "x": 777.0,
+          "y": 810.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "isVisible": true
+      }
+    },
+    {
+      "render": {
+        "mdl_ref": 1.0,
+        "shd_ref": 2.0,
+        "useTexture": true,
+        "spriteName": "particle",
+        "tintColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.0
+        }
+      }
+    },
+    {
+      "animation": {
+        "currentFrame": 0,
+        "elapsedTime": 0.0,
+        "totalFrames": 7,
+        "columns": 3,
+        "rows": 3,
+        "animationSpeed": 15.0
+      }
+    },
+    {
+      "script": {
+        "ScriptName": [
+          "HitVFX"
+        ]
+      }
+    },
+    {
+      "Health": {
+        "hp": 1,
+        "damage": 0,
+        "isAlive": true
+      }
+    },
+    {
+      "LayerTag": {
+        "layerName": "World",
+        "mask": 2,
+        "sortingLayer": 1,
+        "orderInLayer": 52,
+        "z": 0.0
+      }
+    }
+  ]
+}

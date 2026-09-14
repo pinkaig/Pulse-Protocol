@@ -1,0 +1,84 @@
+{ //audio and font already preloaded though
+    "scenemanifest": {
+        "sceneName": "MainMenu",
+        "sharedGroups": [
+            "GlobalUI"
+        ],
+        "textures": [
+            "MainMenu_BG",
+            "continue_mainmenu_btn",
+            "continue_mainmenu_btn_hover",
+            "newgame_mainmenu_btn",
+            "newgame_mainmenu_btn_hover",
+            "quit_mainmenu_btn",
+            "quit_mainmenu_btn_hover",
+            "settings_mainmenu_btn",
+            "settings_mainmenu_btn_hover",
+            //htp
+            "howtoplay_btn",
+            "howtoplay_btn_hover",
+            "howtoplaypressed_btn",
+            "htp_1",
+            "htp_2",
+            "htp_3",
+            // //setting
+            // "Settings_BG",
+            // "back_btn",
+            // "backhover_btn",
+            // "windowed_TEXT",
+            // "fullscreen_TEXT",
+            // "dropdownopen_BOX",
+            // "dropdownclose_BOX",
+            // "screen_TEXT",
+            // "volume_TEXT",
+            // "music_TEXT",
+            // "sfx_TEXT",
+            // "brightess_TEXT",
+            // "slider_point",
+            // "slider_fill",
+            // "slider_empty",
+            //quitprompt
+            "QuitScreen_BG",
+            "quityes_btn",
+            "quityes_btn_hover",
+            "quitno_btn",
+            "quitno_btn_hover",
+            //levelselect
+            "levelselect_bg_no_disc",
+            "levelselect_start_disc",
+            "levelselect_level1_Icon",
+            "levelselect_level2_Icon",
+            //"levelselect_level3_Icon",
+            "levelselect_start_BTN",
+            "levelselect_border",
+            //settings animation frames
+            "settings1",
+            "settings2",
+            "settings3",
+            "settings4",
+            "settings5",
+            "settings6",
+            "settings7",
+            "settings8",
+            "settings9",
+            "settings10",
+            "settings11",
+            "settings12",
+            "settings13",
+            "settings14",
+            "settings15",
+            "settings16",
+            "settings17",
+            "settings18",
+            "settings19"
+        ],
+        "audio": [
+            "BGM_GENERAL",
+            "BGM_L1_TESTING",
+            "BGM_L2_TESTING",
+            "BGM_L3"
+        ],
+        "fonts": [],
+        "animations": []
+    }
+}

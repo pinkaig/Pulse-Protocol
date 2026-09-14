@@ -1,0 +1,869 @@
+{
+    "scene": "VisualLatencyCalibration",
+    "entities": [
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": false,
+                        "spriteName": "../../PulseProtocol/Assets/Textures/Backgrounds/Calibrator BG.png",
+                        "tintColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "CalibrationBG"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 0.0,
+                        "useTexture": true,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "Conductor",
+                            "VisualLatencyCalibrator"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "CalibrationSystem"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "../../PulseProtocol/Assets/Textures/UI/border_transparent.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "VisualBeatSystem"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "CalibBorder"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 1,
+                        "z": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 300.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 0.0,
+                        "useTexture": true,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "TitleText"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "Text",
+                        "mask": 8,
+                        "sortingLayer": 3,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "VISUAL LATENCY CALIBRATION",
+                        "font_id": "barlow_extrabolditalic_font",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "font_size": 80.0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "visible": true,
+                        "alignment": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 206.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 0.0,
+                        "useTexture": true,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "VisualCalibrationInstructionText"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "InstructionText"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "Text",
+                        "mask": 8,
+                        "sortingLayer": 3,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "Press ENTER  /  Square to begin",
+                        "font_id": "barlow_semibold_font",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "font_size": 50.0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "visible": true,
+                        "alignment": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 137.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 0.0,
+                        "useTexture": true,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "SubInstructionText"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "Text",
+                        "mask": 8,
+                        "sortingLayer": 3,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "Listen for the click.  Adjust until the border flash and click feel simultaneous.",
+                        "font_id": "barlow_font",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "font_size": 32.0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "visible": true,
+                        "alignment": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 85.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 0.0,
+                        "useTexture": true,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 0.800000011920929,
+                            "b": 0.30000001192092896,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "ControlsText"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "Text",
+                        "mask": 8,
+                        "sortingLayer": 3,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "LEFT arrow / L1 = flash later     RIGHT arrow / R1 = flash earlier     ENTER / Square = confirm",
+                        "font_id": "barlow_font",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "font_size": 28.0,
+                        "color": [
+                            1.0,
+                            0.800000011920929,
+                            0.30000001192092896
+                        ],
+                        "visible": true,
+                        "alignment": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": -16.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 0.0,
+                        "useTexture": true,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "VisualCalibrationDisplay"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "OffsetText"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "Text",
+                        "mask": 8,
+                        "sortingLayer": 3,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "",
+                        "font_id": "barlow_font",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "font_size": 60.0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "visible": false,
+                        "alignment": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -250.0,
+                            "y": -500.0
+                        },
+                        "scale": {
+                            "x": 150.0,
+                            "y": 150.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/pauserestart.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "NavigationButtons"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "RestartCalibrationBtn"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 250.0,
+                            "y": -500.0
+                        },
+                        "scale": {
+                            "x": 150.0,
+                            "y": 150.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/NextStage.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "NavigationButtons"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "SkipCalibrationBtn"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 680.0 },
+                        "scale": { "x": 200.0, "y": 200.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 0.0, "useTexture": false,
+                        "spriteName": "",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "script": { "ScriptName": [ "ControllerNotification" ] }
+                },
+                {
+                    "name": { "name": "ControllerNotificationText" }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 100, "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "",
+                        "font_id": "barlow_semibold_font",
+                        "offset": { "x": 0.0, "y": 0.0 },
+                        "font_size": 40.0,
+                        "color": [ 1.0, 1.0, 1.0 ],
+                        "visible": false,
+                        "alignment": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

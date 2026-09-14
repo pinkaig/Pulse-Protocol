@@ -1,0 +1,323 @@
+{
+    "scene": "GameLose",
+    "entities": [
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/Backgrounds/Lose screen.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "StageFail BG"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 400.0,
+                            "y": -300.0
+                        },
+                        "scale": {
+                            "x": 250.0,
+                            "y": 130.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/RestartNo.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "NavigationButtons"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "No"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -400.0,
+                            "y": -300.0
+                        },
+                        "scale": {
+                            "x": 250.0,
+                            "y": 130.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Assets/Textures/UI/RestartYes.png",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "NavigationButtons"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Yes"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 680.0 },
+                        "scale": { "x": 200.0, "y": 200.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 0.0, "useTexture": false,
+                        "spriteName": "",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "script": { "ScriptName": [ "ControllerNotification" ] }
+                },
+                {
+                    "name": { "name": "ControllerNotificationText" }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI", "mask": 4,
+                        "sortingLayer": 2, "orderInLayer": 100, "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "",
+                        "font_id": "barlow_semibold_font",
+                        "offset": { "x": 0.0, "y": 0.0 },
+                        "font_size": 40.0,
+                        "color": [ 1.0, 1.0, 1.0 ],
+                        "visible": false,
+                        "alignment": 1
+                    }
+                }
+            ]
+        }
+        ,
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": { "x": 0.0, "y": 0.0 },
+                        "scale": { "x": 1.0, "y": 1.0 },
+                        "rotation": { "x": 0.0, "y": 0.0 },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0, "shd_ref": 0.0, "useTexture": false,
+                        "spriteName": "",
+                        "tintColor": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 },
+                        "glow": { "enabled": false, "intensity": 1.0, "r": 1.0, "g": 1.0, "b": 1.0 }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0, "elapsedTime": 0.0,
+                        "totalFrames": 1, "columns": 1, "rows": 1, "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "script": { "ScriptName": [ "GameLoseBGM" ] }
+                },
+                {
+                    "name": { "name": "BGMManager" }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World", "mask": 2,
+                        "sortingLayer": 1, "orderInLayer": 0, "z": 0.0
+                    }
+                },
+                {
+                    "audiosource": {
+                        "audio_id": "BGM_Game_Lose",
+                        "volume": 1.0,
+                        "loop": true,
+                        "playOnAwake": false
+                    }
+                }
+            ]
+        }
+    ]
+}

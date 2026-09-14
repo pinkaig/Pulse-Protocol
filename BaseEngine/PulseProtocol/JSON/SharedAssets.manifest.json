@@ -1,0 +1,158 @@
+{
+    "sharedmanifest": {
+        "groups": {
+            "GlobalUI": {
+                "textures": [
+                    "Settings_BG",
+                    //Settings
+                    "back_btn",
+                    "back_btn_hover",
+                    "windowed_TEXT",
+                    "fullscreen_TEXT",
+                    "dropdownopen_BOX",
+                    "dropdownclose_BOX",
+                    "screen_TEXT",
+                    "volume_TEXT",
+                    "music_TEXT",
+                    "sfx_TEXT",
+                    "brightess_TEXT",
+                    "slider_point",
+                    "slider_fill",
+                    "slider_empty"
+                ],
+                "audio": [],
+                "fonts": [],
+                "animations": []
+            },
+            "GameplayCommon": {
+                "textures": [
+                    //BG
+                    "WinScreen_BG",
+                    "QuitScreen_BG",
+                    //dorian
+                    "dorian_idle1",
+                    "dorian_idle2",
+                    "dorian_sword",
+                    "dorian_gun",
+                    "dorian_spear",
+                    "dorian_hurt",
+                    //enemies
+                    //rat
+                    "rat_idle",
+                    "rat_hurt",
+                    "rat_walk",
+                    "rat_attack",
+                    "rat_death",
+                    //gorilla
+                    "gorilla_idle",
+                    "gorilla_hurt",
+                    "gorilla_walk",
+                    "gorilla_attack",
+                    "gorilla_death",
+                    //bat
+                    "bat_idle",
+                    "bat_hurt",
+                    "bat_walk",
+                    "bat_attack",
+                    "bat_death",
+                    //enemyicon
+                    "enemyicon_gorilla",
+                    "enemyicon_gorilla_grey",
+                    "enemyicon_rat",
+                    "enemyicon_rat_grey",
+                    "enemyicon_bat",
+                    "enemyicon_bat_grey",
+                    "enemyicon_boss",
+                    "enemyicon_boss_grey",
+                    "boss_healthbar",
+                    //combo text
+                    "miss_ui",
+                    "great_ui",
+                    "perfect_ui",
+                    //pause
+                    "exit_btn",
+                    "exit_btn_hover",
+                    "pausequit_btn",
+                    "pausequit_btn_hover",
+                    "pauserestart_btn",
+                    "pauserestart_btn_hover",
+                    "pausesettings_btn",
+                    "pausesettings_btn_hover",
+                    "NextStage_btn",
+                    "NextStage_btn_hover",
+                    //playerinputS
+                    //keys
+                    "player_input_border",
+                    "W_KEY_GREEN",
+                    "A_KEY_GREEN",
+                    "S_KEY_GREEN",
+                    "D_KEY_GREEN",
+                    "W_KEY_RED",
+                    "A_KEY_RED",
+                    "S_KEY_RED",
+                    "D_KEY_RED",
+                    "W_KEY_BLACK",
+                    "A_KEY_BLACK",
+                    "S_KEY_BLACK",
+                    "D_KEY_BLACK",
+                    //controler player input
+                    "Controller_Red_O",
+                    "Controller_Red_X",
+                    "Controller_Red_TRI",
+                    "Controller_Red_SQ",
+                    "Controller_Green_O",
+                    "Controller_Green_X",
+                    "Controller_Green_TRI",
+                    "Controller_Green_SQ",
+                    //beatborder
+                    "beatborder_transparent",
+                    "beatborder_frame",
+                    //playerhealthbar
+                    "back_glow_blue",
+                    "back_glow_red",
+                    "health_tile001",
+                    "health_tile002",
+                    "health_tile003",
+                    "health_tile004",
+                    "health_tile005",
+                    "health_tile006",
+                    "health_tile007",
+                    "health_tile008",
+                    "health_tile009",
+                    "health_tile010",
+                    "health_tile011",
+                    //enemyhealthbar
+                    "enemyhpbar",
+                    //vfx
+                    "particle",
+                    "sword_slash_vfx",
+                    "bat_attack_vfx",
+                    "gun_attack_vfx",
+                    "spear_attack_vfx",
+                    "pause1",
+                    "pause2",
+                    "pause3",
+                    "pause4",
+                    "pause5",
+                    "pause6",
+                    "pause7",
+                    "pause8",
+                    "pause9",
+                    "pause10",
+                    "pause11",
+                    "pause12",
+                    "pause13",
+                    "pause14",
+                    "pause15",
+                    "pause16",
+                    "pause17",
+                    "pause18",
+                    "pause19"
+                ],
+                "audio": [],
+                "fonts": [],
+                "animations": []
+            }
+        }
+    }
+}

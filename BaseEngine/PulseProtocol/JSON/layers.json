@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "layers": [
+        {
+            "name": "Background",
+            "mask": 1,
+            "visible": true,
+            "locked": false,
+            "isDefault": true,
+            "color": {
+                "r": 0.6000000238418579,
+                "g": 0.800000011920929,
+                "b": 0.6000000238418579,
+                "a": 1.0
+            }
+        },
+        {
+            "name": "World",
+            "mask": 2,
+            "visible": true,
+            "locked": false,
+            "isDefault": true,
+            "color": {
+                "r": 0.800000011920929,
+                "g": 0.800000011920929,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "name": "UI",
+            "mask": 4,
+            "visible": true,
+            "locked": false,
+            "isDefault": true,
+            "color": {
+                "r": 1.0,
+                "g": 0.800000011920929,
+                "b": 0.6000000238418579,
+                "a": 1.0
+            }
+        },
+        {
+            "name": "Text",
+            "mask": 8,
+            "visible": true,
+            "locked": false,
+            "isDefault": true,
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        }
+    ]
+}

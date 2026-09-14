@@ -1,0 +1,59 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+.vs/
+/SEG3/x64
+/x64
+Debug/
+Engine.Dir/
+CMakeFiles/
+
+# ---- CMake build outputs ----
+build/
+build*/
+
+# ---- .NET Runtime DLLs (teammates download their own) ----
+extern/dotnet/bin/*.dll
+extern/dotnet/bin/*.so
+extern/dotnet/bin/*.dylib
+extern/dotnet/bin/*.pdb
+extern/dotnet/bin/*.xml
+
+# But DO track the include directory
+!extern/dotnet/include/
+
+# ---- C# build outputs ----
+bin/
+obj/
+*.user
+*.suo
+*.cache

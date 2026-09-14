@@ -1,0 +1,20 @@
+{ //audio and font already preloaded though
+    "scenemanifest": {
+        "sceneName": "Cutscene",
+        "textures": [
+            "cutscene_1",
+            "cutscene_2",
+            "cutscene_3",
+            "cutscene_4",
+            "cutscene_5",
+            "cutscene_6",
+            "cutscene_7",
+            "cutscene_8"
+        ],
+        "audio": [
+            "BGM_Cutscene"
+        ],
+        "fonts": [],
+        "animations": []
+    }
+}

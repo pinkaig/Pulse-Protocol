@@ -1,0 +1,284 @@
+{
+    "audioFilePaths": [
+        {
+            "id": "BGM_L1",
+            "path": "Assets/Sound/BG & Ambience/BGM_L1_Theme.mp3",
+            "loop": true,
+            "volume": 1.0,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "BGM_L1_TESTING",
+            "path": "Assets/Sound/BG & Ambience/BGM_Level_1 _V4.mp3",
+            "loop": true,
+            "volume": 1.0,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "BGM_L2_TESTING",
+            "path": "Assets/Sound/BG & Ambience/BGM_Level_2.mp3",
+            "loop": true,
+            "volume": 2.0,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "BGM_L3",
+            "path": "Assets/Sound/BG & Ambience/BGM_Level_3.mp3",
+            "loop": true,
+            "volume": 1.0,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "BGM_Cutscene",
+            "path": "Assets/Sound/BG & Ambience/BGM_Cutscene.mp3",
+            "loop": true,
+            "volume": 0.75,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "BGM_GENERAL",
+            "path": "Assets/Sound/BG & Ambience/BGM_General.mp3",
+            "loop": true,
+            "volume": 1.0,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "BGM_Game_Win",
+            "path": "Assets/Sound/BG & Ambience/BGM_Game_Win.mp3",
+            "loop": true,
+            "volume": 1.0,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "BGM_Game_Lose",
+            "path": "Assets/Sound/BG & Ambience/BGM_Game_Lose.mp3",
+            "loop": true,
+            "volume": 0.75,
+            "audiotype": "BGM"
+        },
+        {
+            "id": "SFX_Ambience_Alarm",
+            "path": "Assets/Sound/BG & Ambience/SFX_Ambience_Alarm.wav",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_W_Key",
+            "path": "Assets/Sound/Keys/SFX_W_Key.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_A_Key",
+            "path": "Assets/Sound/Keys/SFX_A_Key.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_S_Key",
+            "path": "Assets/Sound/Keys/SFX_S_Key.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_D_Key",
+            "path": "Assets/Sound/Keys/SFX_D_Key.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Invalid_Key",
+            "path": "Assets/Sound/Keys/SFX_Invalid_Key.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_WrongInput",
+            "path": "Assets/Sound/Keys/SFX_WrongInput.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_WrongInput_2",
+            "path": "Assets/Sound/Keys/SFX_WrongInput_2.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Player_Hurt_1",
+            "path": "Assets/Sound/Player/SFX_Player_Hurt_1.mp3",
+            "loop": false,
+            "volume": 0.5,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Player_Hurt_2",
+            "path": "Assets/Sound/Player/SFX_Player_Hurt_2.mp3",
+            "loop": false,
+            "volume": 0.5,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Gun_1",
+            "path": "Assets/Sound/Player/SFX_Gun_1.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Spear_1",
+            "path": "Assets/Sound/Player/SFX_Spear_1.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Spear_2",
+            "path": "Assets/Sound/Player/SFX_Spear_2.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Spear_3",
+            "path": "Assets/Sound/Player/SFX_Spear_3.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Spear_4",
+            "path": "Assets/Sound/Player/SFX_Spear_4.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_SwordSwing_1",
+            "path": "Assets/Sound/Player/SFX_SwordSwing_1.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_SwordSwing_2",
+            "path": "Assets/Sound/Player/SFX_SwordSwing_2.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Border_Beat",
+            "path": "Assets/Sound/UI/SFX_Border_Beat.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Button_Hover",
+            "path": "Assets/Sound/UI/SFX_Button_Hover.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Button_Select",
+            "path": "Assets/Sound/UI/SFX_Button_Select.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_ComboEstablished_1",
+            "path": "Assets/Sound/UI/SFX_ComboEstablished_1.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_ComboStreakBroken",
+            "path": "Assets/Sound/UI/SFX_ComboStreakBroken.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_GameOver_1",
+            "path": "Assets/Sound/UI/SFX_GameOver_1.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Screen_Close_1",
+            "path": "Assets/Sound/UI/SFX_Screen_Close_1.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Screen_Transition_1",
+            "path": "Assets/Sound/UI/SFX_Screen_Transition_1.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Screen_Transition_2",
+            "path": "Assets/Sound/UI/SFX_Screen_Transition_2.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_UI_PopUp",
+            "path": "Assets/Sound/UI/SFX_UI_PopUp.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_UI_Popup_2",
+            "path": "Assets/Sound/UI/SFX_UI_Popup_2.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Enemy_Ping",
+            "path": "Assets/Sound/Keys/SFX_Enemy_Ping.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Player_Ping",
+            "path": "Assets/Sound/Keys/SFX_Player_Ping.mp3",
+            "loop": false,
+            "volume": 1.0,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Rat_Steps_1",
+            "path": "Assets/Sound/Enemy/SFX_Rat_Steps_1.mp3",
+            "loop": false,
+            "volume": 0.6,
+            "audiotype": "SFX"
+        },
+        {
+            "id": "SFX_Rat_Steps_2",
+            "path": "Assets/Sound/Enemy/SFX_Rat_Steps_2.mp3",
+            "loop": false,
+            "volume": 0.6,
+            "audiotype": "SFX"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+================================================================================
+
+              ____  _   _ _     ____  _____ 
+             |  _ \| | | | |   / ___|| ____|
+             | |_) | | | | |   \___ \|  _|  
+             |  __/| |_| | |___ ___) | |___ 
+             |_|    \___/|_____|____/|_____|
+                                                   
+          ____  ____   ___ _____ ___   ____ ___  _     
+         |  _ \|  _ \ / _ \_   _/ _ \ / ___/ _ \| |    
+         | |_) | |_) | | | || || | | | |  | | | | |    
+         |  __/|  _ <| |_| || || |_| | |__| |_| | |___ 
+         |_|   |_| \_\\___/ |_| \___/ \____\___/|_____|
+
+                    ~ Project Guide ~
+
+================================================================================
+
+
+[ 1. PREREQUISITES ]
+Visual Studio 2022:
+- Download: https://visualstudio.microsoft.com/downloads/
+- Required workload: 
+  1. .NET desktop development
+  2. Desktop development with C++ (C++/CLI support for v143 build tools (Latest))
+
+CMake (Version 3.15 or higher):
+- Download: https://cmake.org/download/
+- Use the Windows x64 installer (.msi)
+- Check "Add CMake to system PATH" during installation
+
+.NET 8.0 SDK (Required for Building):
+- Go to: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+- Download and install "Microsoft .NET SDK 8.0.416" (or latest 8.0.x version)
+- Run the installer and complete the installation
+- This will install to C:\Program Files\dotnet
+
+.NET 8.0 Runtime DLLs (Required for C# Scripting):
+- Go to: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+- Scroll to ".NET Runtime 8.0.416" section
+- Under "Windows Binaries" column, click "x64"
+- Extract the downloaded .zip file
+- Navigate to: shared\Microsoft.NETCore.App\8.0.22
+- Copy all 184 .dll files
+- Paste them into your project folder: BaseEngine/extern/dotnet/bin/
+Important: Do NOT download SDK or Installer - you need "Binaries" only!
+
+
+[ 2. PROJECT SETTINGS (DEBUG VS RELEASE) ]
+Debug Mode (Default):
+- Includes debugging symbols, slower performance
+- Console shows detailed logs
+- Use for: Development and testing
+
+Release Mode:
+- Full optimizations, best performance
+- Use for: Final demos and submission
+
+To Switch in Visual Studio:
+1. Click dropdown near top toolbar (shows "Debug" by default)
+2. Select "Release"
+3. Rebuild (Build -> Rebuild Solution)
+
+
+[ 3. EDITOR MODE VS GAME-ONLY MODE ]
+Both modes are always available in the same solution (build/PulseEngine.sln).
+No need to regenerate the solution to switch between them.
+
+Editor Mode (PulseEditor):
+- Full level editor with ImGui interface
+- Use for: Level design, debugging, profiling
+- How to run: set PulseEditor as startup project, press F5
+
+Game-Only Mode (active game, e.g. PulseProtocol):
+- Game without editor UI
+- Use for: Testing gameplay, demo video
+- How to run: set PulseProtocol as startup project, press F5
+
+Switching Between the 2 Modes in Visual Studio:
+1. In Solution Explorer, right-click PulseEditor or PulseProtocol
+2. Select "Set as Startup Project"
+3. Press F5
+
+Note: The active game is determined by ActiveGame.json.
+If you change it, you are required to re-run run.bat to reconfigure CMake.
+
+[ 4. HOW TO BUILD ]
+First Time Setup:
+1. Double-click run.bat (configures CMake, builds PulseEditor, and runs it)
+3. Open build/PulseEngine.sln in Visual Studio 2022
+4. PulseEditor is already the default startup project
+5. Press F5 to build and run
+
+Running Specific Targets via run.bat:
+  run.bat                          - Editor mode (default): configure, build, run PulseEditor
+  run.bat editor [Debug|Release]   - Build and run PulseEditor
+  run.bat game   [Debug|Release]   - Build and run the active game (e.g. PulseProtocol)
+  run.bat all    [Debug|Release]   - Build all targets (nothing runs)
+  run.bat sln                      - Open build/PulseEngine.sln directly
+  run.bat clean                    - Delete entire build folder
+
+Regenerating Solution:
+1. Close Visual Studio
+2. Run clean.bat (or: run.bat clean)
+3. Run run.bat
+4. Reopen build/PulseEngine.sln
+
+
+[ 5. BATCH FILE REFERENCE ]
+run.bat      -  All-in-one: configure, build, and run (see Section 4 for full usage)
+clean.bat    -  Removes the entire build folder
+
+[ 6. How to add scripts]
+- First, in the ManagedScripts folder, add a new .cs file. Exp: New_Script_Goes_Here.cs
+- 2nd, open ManagedScripts.sln and add the new .cs file as a exisiting item.
+- Lastly, add them into the json in the array of scripts: "script": {"ScriptName": [ "New_Script_Goes_Here" ] }
+
+[7. How to change games to edit]
+- First, in the editor, pick either new game or load other games.
+- If you pick new game, type a name (e.g. MyGame) and press Create.
+- If you load other games, go into the json file of whatever game you want, and pick the config.json.
+- After the pop up, close VSC and re run the run.bat file.
+- When you open the PulseEngine.sln in the build folder, it should be able to edit the game you choose.
+
+================================================================================

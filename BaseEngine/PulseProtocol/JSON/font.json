@@ -1,0 +1,29 @@
+{
+    "fontFilePaths": [
+        {
+            "id": "liberation_font",
+            "path": "Assets/Font/liberation-mono.ttf",
+            "pixelHeight": 48
+        },
+        {
+            "id": "PatrickHand_font",
+            "path": "Assets/Font/PatrickHand-Regular.ttf",
+            "pixelHeight": 48
+        },
+        {
+            "id": "barlow_font",
+            "path": "Assets/Font/Barlow-SemiBoldItalic.ttf",
+            "pixelHeight": 256
+        },
+        {
+            "id": "barlow_extrabolditalic_font",
+            "path": "Assets/Font/Barlow-ExtraBoldItalic.ttf",
+            "pixelHeight": 256
+        },
+        {
+            "id": "barlow_semibold_font",
+            "path": "Assets/Font/Barlow-SemiBold.ttf",
+            "pixelHeight": 256
+        }
+    ]
+}

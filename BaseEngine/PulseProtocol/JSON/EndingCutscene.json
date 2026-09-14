@@ -1,0 +1,911 @@
+{
+    "scene": "EndingCutscene",
+    "entities": [
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "Calibrator_BG",
+                        "tintColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "name": {
+                        "name": "CutsceneBG"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 0,
+                        "z": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1600.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.8199846744537354,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_1",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel1"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 1,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -617.3247680664063,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 965.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_2",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel2"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 2,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 642.5819702148438,
+                            "y": -16.202999114990234
+                        },
+                        "scale": {
+                            "x": 900.5880126953125,
+                            "y": 922.8179931640625
+                        },
+                        "rotation": {
+                            "x": 1.899999976158142,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_3",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel3"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 3,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -925.198974609375,
+                            "y": 106.10083770751953
+                        },
+                        "scale": {
+                            "x": 640.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 1.0,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_4",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel4"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 4,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 123.07699584960938,
+                            "y": -63.66044616699219
+                        },
+                        "scale": {
+                            "x": 618.0,
+                            "y": 840.2125854492188
+                        },
+                        "rotation": {
+                            "x": 1.0115296840667725,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_5",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel5"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 1,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 988.8592529296875,
+                            "y": 8.487998962402344
+                        },
+                        "scale": {
+                            "x": 590.0,
+                            "y": 815.4593505859375
+                        },
+                        "rotation": {
+                            "x": 0.4309999942779541,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_6",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel6"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 1,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": -738.4615478515625,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 849.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.7605319023132324,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_7",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel7"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 48,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 712.997314453125,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 893.0,
+                            "y": 900.0
+                        },
+                        "rotation": {
+                            "x": 0.45899999141693115,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 1.0,
+                        "useTexture": true,
+                        "spriteName": "endingcutscene_8",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 2.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutscenePanel"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "Panel8"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "World",
+                        "mask": 2,
+                        "sortingLayer": 1,
+                        "orderInLayer": 26,
+                        "z": 100.0
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 1050.0,
+                            "y": -800.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 1.0,
+                        "shd_ref": 3.0,
+                        "useTexture": false,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutsceneSkipHint"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "EndingCutsceneSkipHint"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 10,
+                        "z": 100.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "Press SPACE to skip",
+                        "font_id": "barlow_semibold_font",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "font_size": 28.0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "visible": true,
+                        "alignment": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 680.0
+                        },
+                        "scale": {
+                            "x": 200.0,
+                            "y": 200.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": true,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "render": {
+                        "mdl_ref": 0.0,
+                        "shd_ref": 0.0,
+                        "useTexture": false,
+                        "spriteName": "",
+                        "tintColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "glow": {
+                            "enabled": false,
+                            "intensity": 1.0,
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0
+                        }
+                    }
+                },
+                {
+                    "animation": {
+                        "currentFrame": 0,
+                        "elapsedTime": 0.0,
+                        "totalFrames": 1,
+                        "columns": 1,
+                        "rows": 1,
+                        "animationSpeed": 1.0
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "ControllerNotification"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "ControllerNotificationText"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 100,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "TextComponent": {
+                        "text": "",
+                        "font_id": "barlow_semibold_font",
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "font_size": 40.0,
+                        "color": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "visible": false,
+                        "alignment": 1
+                    }
+                }
+            ]
+        },
+        {
+            "components": [
+                {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isVisible": false,
+                        "visibilityTimer": 0.0,
+                        "autoHide": false
+                    }
+                },
+                {
+                    "script": {
+                        "ScriptName": [
+                            "EndingCutsceneBGM"
+                        ]
+                    }
+                },
+                {
+                    "name": {
+                        "name": "BGM_Manager"
+                    }
+                },
+                {
+                    "layerTag": {
+                        "layerName": "UI",
+                        "mask": 4,
+                        "sortingLayer": 2,
+                        "orderInLayer": 15,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "audiosource": {
+                        "audio_id": "BGM_Cutscene",
+                        "volume": 0.75,
+                        "loop": true,
+                        "playOnAwake": false
+                    }
+                }
+            ]
+        }
+    ]
+}

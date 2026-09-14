@@ -1,0 +1,422 @@
+Font/Barlow-Black.ttf
+Textures/UI/pause/pausesettings.png
+Font/Barlow-ExtraBoldItalic.ttf
+Textures/Enemies/Bat/bat_attack_724x535.png
+Spritesheet/Rat/Rat_Attack_spritesheet_764x456.png
+Font/Barlow-ExtraLight.ttf
+Textures/VFX/bat_attack_vfx.png
+Font/Barlow-ExtraLightItalic.ttf
+Textures/UI/health bar.png
+Font/Barlow-Italic.ttf
+Textures/UI/tile005.png
+Font/Barlow-Light.ttf
+Textures/UI/WASDKeys/PlayerInputREDA.png
+Font/Barlow-LightItalic.ttf
+Textures/UI/pause6.png
+Textures/Backgrounds/setting animation frames/Settings0010.jpg
+Font/Barlow-Medium.ttf
+Font/Barlow-MediumItalic.ttf
+Textures/UI/pause10.png
+Font/Barlow-Regular.ttf
+Textures/UI/howtoplay/HTP_3.png
+Textures/Cutscene/6.png
+Font/Barlow-SemiBold.ttf
+Font/Barlow-SemiBoldItalic.ttf
+Font/Barlow-Thin.ttf
+Textures/UI/Settings/windowed_hover.png
+Sound/Keys/SFX_Player_Ping.mp3
+Font/Barlow-ThinItalic.ttf
+Textures/UI/gameBg.jpg
+Textures/UI/How to Play.png
+Spritesheet/Dorian/dorian_hurt_1113x787.png
+Sound/Player/SFX_SwordSwing_2.mp3
+Font/PatrickHand-Regular.ttf
+Font/liberation-mono.ttf
+Textures/levelselect/Level1_Icon.png
+Textures/UI/Player Input RED A.png
+Spritesheet/Dorian/dorian_spear_1113x787.png
+Prefabs/Bat_Enemy.json
+Textures/Characters/hero.png
+Prefabs/BlueGorilla_Enemy.json
+Prefabs/EnemyDamageIndicator.json
+Textures/UI/Full screen.png
+Prefabs/EnemyGorilla.json
+Prefabs/LoadingScenePrefab.Json
+Textures/UI/Draft Cutscene/cutscene panel 5.png
+Prefabs/Rat_Enemy.json
+Prefabs/SwordSlashVFX.json
+Textures/UI/Pause_hover.png
+Prefabs/TestPrefab.json
+Textures/levelselect/Levelselect_Background.png
+Textures/UI/bar.png
+Prefabs/pefab test.json
+Sound/BG & Ambience/BGM_L1_Theme.mp3
+Sound/BG & Ambience/BGM_Level_1 _V4.mp3
+Textures/UI/hit blank key.png
+Textures/UI/healthbar/backglowblue.png
+Sound/BG & Ambience/BGM_Level_2_V2.mp3
+Sound/BG & Ambience/LVL 1 BGM 90 MILI OFF TEST.mp3
+Textures/UI/tile010.png
+Sound/BG & Ambience/SFX_Ambience_Alarm.wav
+Sound/BG & Ambience/TEMP_Menu_Demo_V1.mp3
+Sound/Keys/SFX_Enemy_Ping.mp3
+Sound/Enemy/SFX_Rat_Steps_1.mp3
+Sound/Enemy/SFX_Rat_Steps_2.mp3
+Textures/levelselect/LevelSelector.png
+Spritesheet/Gorilla/Gorilla_Death_spritesheet_1459x977.png
+Sound/Keys/SFX_A_Key.mp3
+Textures/Enemies/Rat/Rat_Attack_spritesheet_764x456.png
+Sound/Keys/SFX_D_Key.mp3
+Textures/UI/health_bar_528x248_going down.png
+Sound/Keys/SFX_Invalid_Key.mp3
+Textures/UI/pause7.png
+Sound/Keys/SFX_S_Key.mp3
+Textures/UI/blank key.png
+Textures/UI/Settings/Screen_.png
+Textures/UI/Buttons/mainmenu/HowtoPlay_hover.png
+Textures/Characters/Rat_Walk_spritesheet_764x456.png
+Spritesheet/Rat/Rat_Hurt_spritesheet_634x433.png
+Sound/Keys/SFX_W_Key.mp3
+Textures/UI/pause1.png
+Textures/UI/Settings/sliderbarfill.png
+Sound/UI/SFX_ComboStreakBroken.mp3
+Sound/Keys/SFX_WrongInput.mp3
+Sound/Keys/SFX_WrongInput_2.mp3
+Spritesheet/Bat/bat_idle_724x535.png
+Sound/Player/SFX_SwordSwing_1.mp3
+Sound/UI/SFX_Border_Beat.mp3
+Sound/UI/SFX_Button_Hover.mp3
+Textures/UI/windowed.png
+Sound/UI/SFX_Button_Select.mp3
+Textures/Characters/Rat_Walk_spritesheet_634x433.png
+Sound/UI/SFX_ComboEstablished_1.mp3
+Sound/UI/SFX_GameOver_1.mp3
+Sound/UI/SFX_Screen_Close_1.mp3
+Textures/VFX/Sword_Slash_VFX_1099x392.png
+Sound/UI/SFX_Screen_Transition_1.mp3
+Textures/UI/healthbar/tile010.png
+Sound/UI/SFX_Screen_Transition_2.mp3
+Sound/UI/SFX_UI_PopUp.mp3
+Sound/UI/SFX_UI_Popup_2.mp3
+Spritesheet/Bat/bat_attack_724x535.png
+Textures/UI/border_transparent.png
+Spritesheet/Bat/bat_death724x535.png
+Textures/UI/S.png
+Textures/Backgrounds/pause animation frames/Pause0010.png
+Spritesheet/Bat/bat_hurt_724x535.png
+Spritesheet/Bat/bat_walk_724x535.png
+Textures/Characters/Dorian/dorian_hurt_1113x787.png
+Spritesheet/Dorian/dorian_gun_1113x787.png
+Textures/UI/tile001.png
+Spritesheet/Dorian/dorian_idle1_1113x787.png
+Spritesheet/Dorian/dorian_idle2_1113x787.png
+Spritesheet/Dorian/dorian_sword_1113x787.png
+Textures/UI/pause3.png
+Spritesheet/Gorilla/Gorilla_Attack_spritesheet_1459x977.png
+Spritesheet/Gorilla/Gorilla_Hurt_spritesheet_1459x977.png
+Spritesheet/Gorilla/Gorilla_Idle_spritesheet_1459x977.png
+Spritesheet/Gorilla/Gorilla_Walk_spritesheet_1459x977.png
+Textures/UI/Player Input RED D.png
+Spritesheet/Health/health_bar_528x248_going_down.png
+Textures/Enemies/Gorilla/Gorilla_Death_spritesheet_1459x977.png
+Textures/Backgrounds/setting animation frames/Settings0001.jpg
+Spritesheet/Pause/Pause_SS_V1_1x14.png
+Spritesheet/Pause/Pause_Spritesheet.png
+Spritesheet/Rat/Rat_Attack_spritesheet_634x433.png
+Spritesheet/Rat/Rat_Death_spritesheet_764x456.png
+Spritesheet/Rat/Rat_Hurt_spritesheet_764x456.png
+Spritesheet/Rat/Rat_Idle_spritesheet_634x433.png
+Textures/Characters/Dorian_Sword_579x615.png
+Spritesheet/Rat/Rat_Idle_spritesheet_764x456.png
+Textures/UI/winscreen/NextStage_hover.png
+Spritesheet/Rat/Rat_Walk_spritesheet_634x433.png
+Textures/UI/healthbar/tile002.png
+Spritesheet/Rat/Rat_Walk_spritesheet_764x456.png
+Textures/Backgrounds/Background1.jpg
+Textures/Backgrounds/MainMenu.png
+Textures/Backgrounds/Background2.png
+Textures/Backgrounds/Calibrator BG.png
+Textures/UI/quit yes.png
+Textures/Backgrounds/Loading_Screen.png
+Textures/Backgrounds/Lose screen.png
+Textures/Backgrounds/pause animation frames/Pause0000.png
+Textures/Backgrounds/pause animation frames/Pause0001.png
+Textures/UI/restart_hover.png
+Textures/UI/new game.png
+Textures/Backgrounds/pause animation frames/Pause0002.png
+Textures/Backgrounds/pause animation frames/Pause0003.png
+Textures/Backgrounds/pause animation frames/Pause0004.png
+Textures/Backgrounds/pause animation frames/Pause0005.png
+Textures/Characters/Rat_Hurt_spritesheet_634x433.png
+Textures/Backgrounds/pause animation frames/Pause0006.png
+Textures/Backgrounds/pause animation frames/Pause0007.png
+Textures/UI/Buttons/mainmenu/settings.png
+Textures/Backgrounds/pause animation frames/Pause0008.png
+Textures/Backgrounds/pause animation frames/Pause0009.png
+Textures/Backgrounds/pause animation frames/Pause0011.png
+Textures/UI/slider.png
+Textures/Characters/hero_spritesheet.png
+Textures/Backgrounds/pause animation frames/Pause0012.png
+Textures/Backgrounds/pause animation frames/Pause0013.png
+Textures/UI/W.png
+Textures/Backgrounds/pause animation frames/Pause0014.png
+Textures/Enemies/Bat/bat_death724x535.png
+Textures/Backgrounds/pause animation frames/Pause0015.png
+Textures/Backgrounds/pause animation frames/Pause0016.png
+Textures/Backgrounds/pause animation frames/Pause0017.png
+Textures/Backgrounds/pause animation frames/Pause0018.png
+Textures/Backgrounds/pause animation frames/Pause0019.png
+Textures/UI/Settings/SFX_.png
+Textures/Backgrounds/quit screen.png
+Textures/UI/enemy icon gorilla greyed.png
+Textures/UI/Draft Cutscene/cutscene panel 1.png
+Textures/Backgrounds/setting animation frames/Settings0000.jpg
+Textures/UI/pause12.png
+Textures/UI/Buttons/mainmenu/new game.png
+Textures/Backgrounds/setting animation frames/Settings0002.jpg
+Textures/UI/border/blank key.png
+Textures/UI/Settings/Music_.png
+Textures/Backgrounds/setting animation frames/Settings0003.jpg
+Textures/Backgrounds/setting animation frames/Settings0004.jpg
+Textures/UI/WASDKeys/EKeyD.png
+Textures/Backgrounds/setting animation frames/Settings0005.jpg
+Textures/UI/Buttons/mainmenu/HowtoPlay_pressed.png
+Textures/Backgrounds/setting animation frames/Settings0006.jpg
+Textures/Backgrounds/setting animation frames/Settings0007.jpg
+Textures/Backgrounds/setting animation frames/Settings0008.jpg
+Textures/Backgrounds/setting animation frames/Settings0009.jpg
+Textures/Backgrounds/setting animation frames/Settings0011.jpg
+Textures/Backgrounds/setting animation frames/Settings0012.jpg
+Textures/Backgrounds/setting animation frames/Settings0013.jpg
+Textures/Backgrounds/setting animation frames/Settings0014.jpg
+Textures/UI/healthbar/tile003.png
+Textures/Backgrounds/setting animation frames/Settings0015.jpg
+Textures/Backgrounds/setting animation frames/Settings0016.jpg
+Textures/Backgrounds/setting animation frames/Settings0017.jpg
+Textures/Cutscene/8.png
+Textures/Backgrounds/setting animation frames/Settings0018.jpg
+Textures/UI/healthbar/tile007.png
+Textures/Backgrounds/setting animation frames/Settings0019.jpg
+Textures/UI/Player Input GREEN W.png
+Textures/Backgrounds/win screen.png
+Textures/UI/WASDKeys/EKeyW.png
+Textures/UI/Rhythym bar Glow.png
+Textures/Characters/Dorian/dorian_gun_1113x787.png
+Textures/Characters/Dorian/dorian_idle1_1113x787.png
+Textures/Characters/Dorian/dorian_idle2_1113x787.png
+Textures/UI/blankkeys/question_mark_blank_key.png
+Textures/Characters/Dorian/dorian_spear_1113x787.png
+Textures/Characters/Dorian/dorian_sword_1113x787.png
+Textures/UI/tile012.png
+Textures/UI/quitprompt/quitno_hover.png
+Textures/Characters/Dorian_Hurt_579x615.png
+Textures/Characters/Dorian_Idle1_579x615.png
+Textures/UI/tile008.png
+Textures/UI/NextStage_hover.png
+Textures/Characters/Dorian_Idle2_579x615.png
+Textures/Characters/Rat_Attack_spritesheet_634x433.png
+Textures/Characters/Rat_Attack_spritesheet_764x456.png
+Textures/Enemies/Gorilla/Gorilla_Attack_spritesheet_1459x977.png
+Textures/Characters/Rat_Death_spritesheet_764x456.png
+Textures/UI/great.png
+Textures/Characters/Rat_Hurt_spritesheet_764x456.png
+Textures/UI/pause/pausequit_hover.png
+Textures/Characters/Rat_Idle_spritesheet_634x433.png
+Textures/Characters/Rat_Idle_spritesheet_764x456.png
+Textures/Characters/hero_idle.png
+Textures/Cutscene/1.png
+Textures/Cutscene/2.png
+Textures/Cutscene/3.png
+Textures/UI/howtoplay/HTP_1.png
+Textures/UI/Buttons/mainmenu/quit.png
+Textures/Enemies/Gorilla/RedGorillaEnemy.png
+Textures/Cutscene/4.png
+Textures/Cutscene/5.png
+Textures/UI/winscreen/home_hover.png
+Textures/UI/howtoplay/HTP_2.png
+Textures/Cutscene/7.png
+Textures/Enemies/Bat/bat_hurt_724x535.png
+Textures/UI/Draft Cutscene/cutscene panel 7.png
+Textures/Enemies/Bat/bat_idle_724x535.png
+Textures/Enemies/Bat/bat_walk_724x535.png
+Textures/Enemies/Gorilla/BlueGorillaEnemy.png
+Textures/Enemies/Gorilla/Gorilla_Hurt_spritesheet_1459x977.png
+Textures/Enemies/Gorilla/Gorilla_Idle_spritesheet_1459x977.png
+Textures/UI/EKeyW.png
+Textures/Enemies/Gorilla/Gorilla_Walk_spritesheet_1459x977.png
+Textures/Enemies/Rat/Rat_Death_spritesheet_764x456.png
+Textures/Enemies/Rat/Rat_Hurt_spritesheet_764x456.png
+Textures/Enemies/Rat/Rat_Idle_spritesheet_764x456.png
+Textures/Enemies/Rat/Rat_Walk_spritesheet_764x456.png
+Textures/Enemies/bat_attack_724x535.png
+Textures/UI/Draft Cutscene/cutscene panel 6.png
+Textures/Enemies/bat_hurt_724x535.png
+Textures/UI/healthbar/backglowred.png
+Textures/Enemies/bat_idle_724x535.png
+Textures/Enemies/bat_walk_724x535.png
+Textures/Installer/Background.ico
+Textures/Installer/Game Icon.png
+Textures/UI/HTP_3.png
+Textures/Installer/Game_Icon.ico
+Textures/UI/A.png
+Textures/UI/Brightness_.png
+Textures/UI/Buttons/mainmenu/HowtoPlay.png
+Textures/UI/Buttons/mainmenu/continue.png
+Textures/UI/enemyicon/enemy_icon_bat_greyed.png
+Textures/UI/WASDKeys/PlayerInputGREENW.png
+Textures/UI/Buttons/mainmenu/continue_hover.png
+Textures/UI/Buttons/mainmenu/new game_hover.png
+Textures/UI/Buttons/mainmenu/quit_hover.png
+Textures/UI/Buttons/mainmenu/settings_hover.png
+Textures/UI/D.png
+Textures/UI/Draft Cutscene/cutscene panel 10.png
+Textures/UI/enemy icon rat.png
+Textures/UI/Draft Cutscene/cutscene panel 11.png
+Textures/UI/Draft Cutscene/cutscene panel 12.png
+Textures/UI/Draft Cutscene/cutscene panel 13.png
+Textures/UI/Draft Cutscene/cutscene panel 14.png
+Textures/UI/Draft Cutscene/cutscene panel 2.png
+Textures/UI/Draft Cutscene/cutscene panel 3.png
+Textures/UI/Draft Cutscene/cutscene panel 4.png
+Textures/UI/enemyicon/enemy_icon_bat.png
+Textures/UI/Draft Cutscene/cutscene panel 8.png
+Textures/UI/Draft Cutscene/cutscene panel 9.png
+Textures/UI/RestartYes_hover.png
+Textures/UI/EKeyA.png
+Textures/UI/EKeyD.png
+Textures/UI/EKeyS.png
+Textures/UI/Exit.png
+Textures/UI/Exit_hover.png
+Textures/UI/Settings/Fullscreen_.png
+Textures/UI/Full screen_hover.png
+Textures/UI/HTP_1.png
+Textures/UI/HTP_2.png
+Textures/UI/healthbar/tile008.png
+Textures/UI/Home_hover.png
+Textures/UI/home.png
+Textures/UI/How to Play pressed.png
+Textures/UI/How to Play_hover.png
+Textures/UI/quit no.png
+Textures/UI/Music_.png
+Textures/UI/NextStage.png
+Textures/UI/healthbar/enemy_health_bar_176x33.png
+Textures/UI/Settings/Fullscreen_hover.png
+Textures/UI/Pause.png
+Textures/UI/pause9.png
+Textures/UI/Player Input GREEN A.png
+Textures/UI/Player Input GREEN D.png
+Textures/UI/Player Input GREEN S.png
+Textures/UI/Player Input RED S.png
+Textures/UI/Player Input RED W.png
+Textures/UI/RestartNo.png
+Textures/UI/RestartNo_hover.png
+Textures/UI/RestartYes.png
+Textures/UI/SFX_.png
+Textures/levelselect/LevelSelect_StartButton.png
+Textures/UI/Screen_.png
+Textures/UI/pause/pausequit.png
+Textures/UI/Settings/Brightness_.png
+Textures/UI/Settings/Volume_.png
+Textures/UI/Settings/back.png
+Textures/UI/enemy icon bat.png
+Textures/UI/Settings/back_hover.png
+Textures/UI/slider bar bottom.png
+Textures/UI/Settings/dropdownclose.png
+Textures/UI/Settings/dropdownopen.png
+Textures/UI/Settings/slider.png
+Textures/UI/Settings/sliderbarbottom.png
+Textures/UI/Settings/windowed_.png
+Textures/UI/Sword UI.png
+Textures/UI/Volume_.png
+Textures/UI/WASDKeys/EKeyA.png
+Textures/UI/pausequit.png
+Textures/UI/WASDKeys/EKeyS.png
+Textures/UI/WASDKeys/PlayerInputGREENA.png
+Textures/UI/WASDKeys/PlayerInputGREEND.png
+Textures/UI/WASDKeys/PlayerInputGREENS.png
+Textures/UI/WASDKeys/PlayerInputREDD.png
+Textures/UI/WASDKeys/PlayerInputREDS.png
+Textures/UI/WASDKeys/PlayerInputREDW.png
+Textures/UI/back glow blue.png
+Textures/UI/pause/pausesettings_hover.png
+Textures/UI/back glow red.png
+Textures/UI/enemyicon/enemy_icon_rat_greyed.png
+Textures/UI/back.png
+Textures/UI/back_hover.png
+Textures/UI/blankkeys/border_blank_key.png
+Textures/UI/blankkeys/hit_blank_key.png
+Textures/levelselect/Level2_Icon.png
+Textures/UI/border/border_blank_key.png
+Textures/UI/health bar new.png
+Textures/UI/border/border_frame.png
+Textures/UI/border/border_transparent.png
+Textures/UI/miss.png
+Textures/UI/border/player_input_border.png
+Textures/UI/border_frame.png
+Textures/UI/pauserestart.png
+Textures/UI/combotext/great.png
+Textures/UI/pause/Exit_hover.png
+Textures/UI/combotext/miss.png
+Textures/UI/quitprompt/quityes_hover.png
+Textures/UI/combotext/perfect.png
+Textures/UI/continue.png
+Textures/UI/continue_hover.png
+Textures/UI/quit no_hover.png
+Textures/UI/dropdown close.png
+Textures/UI/dropdown open.png
+Textures/UI/enemy icon bat greyed.png
+Textures/UI/enemy icon gorilla.png
+Textures/UI/enemy icon rat greyed.png
+Textures/UI/enemyicon/enemy_icon_gorilla.png
+Textures/UI/enemyicon/enemy_icon_gorilla_greyed.png
+Textures/UI/enemyicon/enemy_icon_rat.png
+Textures/UI/green bar.png
+Textures/UI/healthbar/tile001.png
+Textures/UI/healthbar/tile004.png
+Textures/UI/healthbar/tile005.png
+Textures/UI/healthbar/tile006.png
+Textures/UI/pause14.png
+Textures/UI/healthbar/tile009.png
+Textures/UI/healthbar/tile011.png
+Textures/UI/loadingscreen/loading_screen.png
+Textures/UI/new game_hover.png
+Textures/UI/pause/Exit.png
+Textures/UI/pause/pauserestart.png
+Textures/UI/pause/pauserestart_hover.png
+Textures/UI/pause11.png
+Textures/UI/quitprompt/quityes.png
+Textures/UI/pause13.png
+Textures/UI/pause2.png
+Textures/UI/pause4.png
+Textures/UI/pause5.png
+Textures/UI/pause8.png
+Textures/UI/question mark blank key.png
+Textures/UI/pausequit_hover.png
+Textures/UI/winscreen/home.png
+Textures/UI/pauserestart_hover.png
+Textures/UI/pausesettings.png
+Textures/UI/pausesettings_hover.png
+Textures/UI/perfect.png
+Textures/UI/player input border.png
+Textures/UI/quit yes_hover.png
+Textures/UI/quit.png
+Textures/UI/quit_hover.png
+Textures/UI/quitprompt/quitno.png
+Textures/UI/restart.png
+Textures/UI/settings.png
+Textures/UI/settings_hover.png
+Textures/UI/slider bar fill.png
+Textures/UI/tile002.png
+Textures/UI/tile003.png
+Textures/UI/tile004.png
+Textures/UI/tile006.png
+Textures/UI/tile007.png
+Textures/UI/tile009.png
+Textures/UI/windowed_hover.png
+Textures/UI/winscreen/NextStage.png
+Textures/VFX/VFX_Hit_259x270.png
+Textures/VFX/VFX_SwordSlash_365x418.png
+Textures/VFX/gun_attack_vfx.png
+Textures/VFX/spear_attack_vfx.png
+Textures/levelselect/Level select Background no disc.png
+Textures/levelselect/start disc.png

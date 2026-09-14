@@ -1,0 +1,20 @@
+{ //audio and font already preloaded though
+    "scenemanifest": {
+        "sceneName": "EndingCutscene",
+        "textures": [
+            "endingcutscene_1",
+            "endingcutscene_2",
+            "endingcutscene_3",
+            "endingcutscene_4",
+            "endingcutscene_5",
+            "endingcutscene_6",
+            "endingcutscene_7",
+            "endingcutscene_8"
+        ],
+        "audio": [
+            "BGM_Cutscene"
+        ],
+        "fonts": [],
+        "animations": []
+    }
+}

@@ -1,0 +1,17 @@
+{ //audio and font already preloaded though
+    "scenemanifest": {
+        "sceneName": "LoadingScreenScene",
+        "sharedGroups": [
+            "GameplayCommon"
+        ],
+        "textures": [
+            "loadingscreen_BG",
+            "Level1_BG"
+        ],
+        "audio": [
+            
+        ],
+        "fonts": [],
+        "animations": []
+    }
+}

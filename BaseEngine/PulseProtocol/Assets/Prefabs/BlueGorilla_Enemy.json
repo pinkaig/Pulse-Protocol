@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "transform": {
+        "position": {
+          "x": 827.0,
+          "y": 130.0
+        },
+        "scale": {
+          "x": 1000.0,
+          "y": 670.103
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "isVisible": true
+      }
+    },
+    {
+      "render": {
+        "mdl_ref": 0.0,
+        "shd_ref": 2.0,
+        "useTexture": true,
+        "spriteName": "gorilla_idle",
+        "tintColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      }
+    },
+    {
+      "animation": {
+        "currentFrame": 0,
+        "elapsedTime": 0.0,
+        "totalFrames": 15,
+        "columns": 4,
+        "rows": 4,
+        "animationSpeed": 12.0
+      }
+    },
+    {
+      "AABB": {
+        "min": {
+          "x": -20.0,
+          "y": -14.0
+        },
+        "max": {
+          "x": 20.0,
+          "y": 14.0
+        }
+      }
+    },
+    {
+      "name": {
+        "name": "BlueGorilla_Enemy"
+      }
+    },
+    {
+      "Health": {
+        "hp": 20,
+        "damage": 20,
+        "isAlive": true
+      }
+    },
+    {
+      "LayerTag": {
+        "layerName": "World",
+        "mask": 2,
+        "orderInLayer": 21,
+        "z": 0.0
+      }
+    },
+    {
+      "script": {
+        "ScriptName": [
+          "BlueGorilla"
+        ]
+      }
+    }
+  ]
+}

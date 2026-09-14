@@ -1,0 +1,42 @@
+{ //audio and font already preloaded though
+    "scenemanifest": {
+        "sceneName": "Level1",
+        "sharedGroups": [
+            "GlobalUI",
+            "GameplayCommon"
+        ],
+        "textures": [
+            "Level1_BG"
+            // //rat
+            // "rat_idle",
+            // "rat_hurt",
+            // "rat_walk",
+            // "rat_attack",
+            // "rat_death",
+            // //gorilla
+            // "gorilla_idle",
+            // "gorilla_hurt",
+            // "gorilla_walk",
+            // "gorilla_attack",
+            // "gorilla_death",
+            // //bat
+            // "bat_idle",
+            // "bat_hurt",
+            // "bat_walk",
+            // "bat_attack",
+            // "bat_death",
+            // //enemyicon
+            // "enemyicon_gorilla",
+            // "enemyicon_gorilla_grey",
+            // "enemyicon_rat",
+            // "enemyicon_rat_grey",
+            // "enemyicon_bat",
+            // "enemyicon_bat_grey"
+        ],
+        "audio": [
+            "BGM_L1_TESTING"
+        ],
+        "fonts": [],
+        "animations": []
+    }
+}

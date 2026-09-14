@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "name": {
+        "name": "SpearAttackVFX"
+      }
+    },
+    {
+      "transform": {
+        "position": {
+          "x": -45.0,
+          "y": -250.0
+        },
+        "scale": {
+          "x": 1099.0,
+          "y": 392.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "isVisible": true
+      }
+    },
+    {
+      "render": {
+        "mdl_ref": 1.0,
+        "shd_ref": 2.0,
+        "useTexture": true,
+        "spriteName": "spear_attack_vfx",
+        "tintColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        }
+      }
+    },
+    {
+      "animation": {
+        "currentFrame": 0,
+        "elapsedTime": 0.0,
+        "totalFrames": 13,
+        "columns": 4,
+        "rows": 4,
+        "animationSpeed": 2.0
+      }
+    },
+    {
+      "script": {
+        "ScriptName": [
+          "SwordSlashVFX"
+        ]
+      }
+    },
+    {
+      "Health": {
+        "hp": 1,
+        "damage": 0,
+        "isAlive": true
+      }
+    },
+    {
+      "LayerTag": {
+        "layerName": "World",
+        "mask": 2,
+        "sortingLayer": 1,
+        "orderInLayer": 51,
+        "z": 0.0
+      }
+    }
+  ]
+}
